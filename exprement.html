@@ -1,0 +1,104 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(253, 210, 15);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+th,tr,td{
+    border: 2px solid white;
+    margin: 3px;
+}
+table{ 
+    width: 100%;
+    border-collapse: collapse;
+}
+.a{ color: white;
+    background-color: black;
+}
+.b{ color: black;
+    background-color: white;
+}
+.c{ color: black;
+    background-color: grey;
+}
+.z{ 
+    float: right;
+}
+td{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<form>
+<table> 
+    <tr class="a">
+        <th> frild</th>
+        <th>agree</th>
+        <th>narmal</th>
+        <th> disagree</th>
+    </tr>
+    <tr class="b"> 
+        <td style="text-align: left; border-right: 2px black;"> treat student with respect</td>
+        <td> <input type="radio" name="x"></td>
+        <td><input type="radio" name="x"></td>
+        <td><input type="radio" name="x"></td>
+    </tr>
+    <tr class="c"> 
+        <td style="text-align: left;">communct clearly</td>
+        <td><input type="radio" name="y"></td>
+        <td> <input type="radio" name="y"></td>
+        <td> <input type="radio" name="y"></td>
+    </tr>
+    <tr class="b">
+        <td style="text-align:left;">student feel free to ask</td>
+        <td> <input type="radio" name="z"></td>
+        <td> <input type="radio" name="z"></td>
+        <td> <input type="radio" name="z"></td>
+    </tr>
+    <tr class="c"> 
+        <td style="text-align: left;"> quezir to the couers </td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+    </tr>
+</table>
+        <label>submit your answer</label>
+        <input type="submit" class="z">
+</form>
+
+</body>
+</html>
